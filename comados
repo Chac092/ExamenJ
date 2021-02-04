@@ -1,0 +1,6 @@
+Crear proyecto laravel --> composer create-project laravel/laravel mi-proyecto-laravel;
+Para crear migraciones --> php artisan make:migration create_empleados_table;
+Para crear Seeders --> php artisan make:seeder ProfessionSeeder;
+Para crear modelos --> php artisan make:model Article;
+Para migrar los seeders --> php artisan db:seed --class=LibrosSeeder;
+Crear controlador --> php artisan make:controller Entrada;
